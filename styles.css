@@ -23,8 +23,8 @@ body {
 
 .hero {
     display: flex;
-    padding-left: 100px;
-    padding-right: 100px; 
+    padding-left: 150px;
+    padding-right: 150px; 
 }
 
 
@@ -45,6 +45,7 @@ li,
 subtext {
     font-size: 18px;
     color: #E5E7EB;
+
 }
 
 .title {
@@ -58,20 +59,21 @@ subtext {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    padding-left: 100px;
+    padding-left: 150px;
     
 }
 
 .inline {
     display: flex;
-    padding-right: 100px;
+    padding-right: 150px;
     margin-top: 100px;
 }
 
-img {
-    margin-top: 50px;
+.house {
+    margin-top: 55px;
     margin-bottom: 80px;
-    padding: 20px;
+    padding-left: 40px;
+    max-width: 400px;
 }
 
 button {
@@ -81,4 +83,41 @@ button {
     font-weight: 800;
     border-radius: 6px;
     padding: 8px 20px;
+}
+
+.random {
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 900;
+    display: flex;
+    justify-content: center;
+    margin-top: 60px;
+}
+
+.photo-line {
+    display: flex;
+    margin-top: 40px;
+    justify-content: center;
+}
+
+.box {
+    border: 3px solid #3882F6;
+    border-radius: 8px;
+    height: 150px; 
+    width: 150px;
+    margin-bottom: 20px;
+   
+}
+
+.icon {
+display: flex;
+flex-direction: column;
+max-width: 156px;
+margin: 20px;
+align-items: center;
+}
+
+.text {
+    display: flex;
+    
 }
