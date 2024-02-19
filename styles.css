@@ -42,7 +42,7 @@ li {
 }
 
 li,
-subtext {
+.subtext {
     font-size: 18px;
     color: #E5E7EB;
 
@@ -117,7 +117,31 @@ margin: 20px;
 align-items: center;
 }
 
-.text {
-    display: flex;
+.inspiration {
+    background-color: #E5E7EB;
+    padding:100px 200px;
     
 }
+
+.text2 {
+    font-size: 36px; 
+    color: #1F2937;
+    font-style: italic;
+}
+
+.name {
+    text-align: end;
+    font-weight: 800;
+    font-size: 18px;
+}
+
+.blue {
+    background-color: #3882F6;
+    max-width: 800px;
+    display: flex;
+    justify-content: center;
+    padding: 75px;
+    margin: auto;
+
+}
+
